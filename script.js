@@ -1,4 +1,4 @@
-unction addTask() {
+function addTask() {
       const myInput = document.getElementById("input").value.trim(); //to get inputfield value
       if (myInput !== "") {
         const li = document.createElement("li"); // to create a list item
